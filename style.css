@@ -1,0 +1,49 @@
+#header-img{
+  width:300px;
+}
+
+header{
+  max-width:100%;
+  display:flex;
+  align-items:center;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width:100%;
+}
+ul{
+  list-style:none;
+  display:flex;
+  justify-content:space-around;
+}
+nav{
+  width:100%;
+}
+.sign-up-page{
+  height:450px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.sign-up-form{
+  text-align:center;
+  margin-bottom:25px;
+}
+.video-page{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.video{
+ text-align:center;  
+}
+.criminal-justice{
+  height:500px;
+  background-image: url("https://9q6pu33arq33jokx6qglbp6n-wpengine.netdna-ssl.com/wp-content/uploads/2018/04/ai-in-law-and-legal-practice-current-applications-1045x514.png");
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display:none;
+  }
+}
